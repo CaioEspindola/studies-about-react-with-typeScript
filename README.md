@@ -1,4 +1,4 @@
-<h1 textalign="center">Estudos sobre React com TypeScript</h1>
+**<h1 align="center">Estudos sobre React com TypeScript</h1>**
 
 React foi originalmente apresentado pelo Facebook. Ele é usado por grandes companhias e marcas mundo afora. Atua como uma biblioteca para o JavaScript. Mas ele também pode ser categorizado como um framework.
 
