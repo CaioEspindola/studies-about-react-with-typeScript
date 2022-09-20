@@ -11,3 +11,6 @@ A segunda é o gerenciamento de estado. O React é declarativo ou "reativo", enq
 O estado do componente não é uma simples variável, ele é gerenciado pelo React que determina a necessidade de cada componente ser renderizado novamente, ou seja, sempre que o nosso estado sofrer alguma alteração, nosso componente será montado novamente com as novas informações, em tempo-real.
 
 Apesar do estado ser uma variável em nossa classe, não podemos alterar o estado da mesma forma que alteramos uma variável comum, isso porque o estado é imutável, ou seja, ele nunca deve ser alterado e sempre deve ser sobreposto.
+
+
+TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE
