@@ -1,6 +1,6 @@
 App Temporizador de Estudos.
 
-Neste projeto pude me aprofundar mais nas tecnologias React e TypeScript, aplicando um estudo teórico e prático com objetivo de consolidar e expandir meus conhecimentos.
+Neste projeto pude me aprofundar mais nas tecnologias React e TypeScript, aplicando um estudo teórico e prático com objetivo de consolidar e expandir conhecimento.
 
 ![layout app temporizador de estudos](https://user-images.githubusercontent.com/99665225/191318703-7f34d41a-a869-45c4-a6e9-208b1c2c4bfe.png)
 
@@ -10,56 +10,54 @@ Neste projeto pude me aprofundar mais nas tecnologias React e TypeScript, aplica
 4- Estilizando com Sass e CSS Module:</br>
 5- PROPS:</br>
 6- STATE:</br>
-7- Controlar campos de um Formulário com estados:</br>
+7- Controlar um Formulário com estados:</br>
 8- Cronômetro e useEffect:</br>
 9- Finalizando Tarefa:</br>
 
 
 **<h1 align="center">Estudos sobre React com TypeScript</h1>**
 
-React foi originalmente apresentado pelo Facebook. Ele é usado por grandes companhias e marcas mundo afora. Atua como uma biblioteca para o JavaScript. Mas ele também pode ser categorizado como um framework.
+React foi originalmente apresentado pelo Facebook. Ele é usado por grandes empresas e marcas mundo afora. Atua como uma biblioteca para o JavaScript. Mas também pode ser categorizado como um framework.
 
-O React tem duas premissas principais:
+**O React tem duas premissas principais:**
 
-A primeira delas é a componentização. É uma forma de simplificar estruturas da sua aplicação em pequenas partes que podem ser reutilizadas. Com ela podemos ter, por exemplo, diversos ícones, reaproveitando esses componentes e alterando somente as partes diferentes entre elas. Sendo assim, esses ícones podem ter os mesmos aspectos, as mesmas cores e os mesmos comportamentos, alterando somente aquilo que é necessário.
+A primeira é a *componentização*. É uma forma de simplificar estruturas da sua aplicação em pequenas partes que podem ser reutilizadas. Com ela podemos ter, por exemplo, diversos ícones, reaproveitando esses componentes e alterando somente as partes diferentes entre elas. Sendo assim, esses ícones podem ter os mesmos aspectos, as mesmas cores e os mesmos comportamentos, alterando somente aquilo que é necessário.
 
-A segunda é o gerenciamento de estado. O React é declarativo ou "reativo", enquanto o Javascript normalmente é imperativo, que acaba interferindo na performance da aplicação.
+A segunda é o *gerenciamento de estado*. O React é declarativo ou "reativo", enquanto o JavaScript normalmente é imperativo, que acaba interferindo na performance da aplicação.
 
-O estado do componente não é uma simples variável, ele é gerenciado pelo React que determina a necessidade de cada componente ser renderizado novamente, ou seja, sempre que o nosso estado sofrer alguma alteração, nosso componente será montado novamente com as novas informações, em tempo-real.
+O estado do componente não é uma simples variável, ele é gerenciado pelo React que determina a necessidade de cada componente ser renderizado novamente, ou seja, sempre que o nosso estado sofrer alguma alteração, nosso componente será montado novamente com as novas informações.
 
 Apesar do estado ser uma variável em nossa classe, não podemos alterar o estado da mesma forma que alteramos uma variável comum, isso porque o estado é imutável, ou seja, ele nunca deve ser alterado e sempre deve ser sobreposto.
 
-Princípios SOLID em aplicações feitas com React:
+**Princípios SOLID em aplicações feitas com React:**
 
-[S]ingle Responsibility Principle (Princípio da Responsabilidade Única):
+[S]ingle Responsibility Principle (Princípio da Responsabilidade Única):</br>
 Criar componentes e funções com uma única utilidade.
 
-[O]pen/Closed Principle (Princípio do Aberto/Fechado)
+[O]pen/Closed Principle (Princípio do Aberto/Fechado):</br>
 Entidades de software como classes, módulos, funções e etc, devem ser abertas para extensão, mas fechadas para modificação.
 
-[L]iskov Substitution Principle (Princípio da Substituição de Liskov):
+[L]iskov Substitution Principle (Princípio da Substituição de Liskov):</br>
 Os objetos em um programa devem ser substituídos por instâncias de seus subtipos, sem alterar a exatidão desse programa.
 
-[I]nterface Segregation Principle (Princípio da Segregação de Interfaces):
+[I]nterface Segregation Principle (Princípio da Segregação de Interfaces):</br>
 Muitas interfaces específicas são melhores do que uma interface de uso geral.
 
-[D]ependency Inversion Principle (Princípio da Inversão de Dependências):
+[D]ependency Inversion Principle (Princípio da Inversão de Dependências):</br>
 Programe voltado para interface, não para implementação.
 
-Saiba mais sobre: https://ntconsult.com.br/insights/aplicando-solid-no-react/
+Saiba mais sobre:</br>https://ntconsult.com.br/insights/aplicando-solid-no-react/
 
 **<h1 align="center">Iniciando a Aplicação:</h1>**
 
 **1ª ETAPA:**
 
-Instalar o Node.JS e buscar na internet um pacote de gerenciamento para ele;
-Nesse estudo foi utilizado o NPM. https://www.npmjs.com/;
+Instalar o Node.JS e buscar na internet um pacote de gerenciamento para ele. Neste estudo foi utilizado o gerenciador NPM.</br>
+https://www.npmjs.com/
 
-Dentro do site NPM busque por “React Create App” e pesquise na documentação 
-para saber os comandos que devem ser colocados no terminal para dar início a aplicação. https://create-react-app.dev/docs/getting-started/;
+Dentro do site NPM busque por “React Create App” e pesquise na documentação para saber os comandos que devem ser colocados no terminal para dar início a aplicação.</br>https://create-react-app.dev/docs/getting-started/;
 
-
-*Sobre o que é Node.JS e o Gerenciador NPM:
+***Sobre o que é Node.JS e o Gerenciador NPM:**
 
 **NodeJS:**
 
@@ -81,15 +79,15 @@ Digitando os comandos no terminal para iniciar a aplicação.
 
 ![image1](https://user-images.githubusercontent.com/99665225/191321121-cf44b53f-0bf1-4a28-abd2-b406a1f7e5c8.png)
 
-npx: É utilizado para executar um pacote, e não para baixá-lo. Se usarmos um comando como npm install, iremos instalar na máquina o pacote. Com o npx, apenas executaremos esse pacote a partir da nuvem.
+-   npx: É utilizado para executar um pacote, e não para baixá-lo. Se usarmos um comando como npm install, iremos instalar na máquina o pacote. Com o npx, apenas executaremos esse pacote a partir da nuvem.
 
- - --template typescript: Para inserir um template baseado em Typescript para nosso projeto.
+- --template typescript: Para inserir um template baseado em TypeScript para nosso projeto.
 
- - --use-npm: para especificar que queremos usar o npm para gerenciar nosso pacote.
-
-npm start: Por fim, dentro do terminal, entre na pasta criada para o novo projeto e execute o comando npm start.
+- --use-npm: para especificar que queremos usar o npm para gerenciar nosso pacote.
 
 ![image2](https://user-images.githubusercontent.com/99665225/191321264-e991529c-3550-4a5e-b169-126fa0807adf.png)
+
+-   npm start: Por fim, dentro do terminal, entre na pasta criada para o novo projeto e execute o comando npm start para iniciar e reproduzir a aplicação.
 
 Após a instalação, dentro do leitor de códigos, podemos observar diversas pastas e arquivos que foram adicionadas nessa aplicação. Em resumo será comentado alguns mais importantes e outros que serão removidos para poder iniciar o desenvolvimento do projeto.
 
@@ -97,15 +95,13 @@ Após a instalação, dentro do leitor de códigos, podemos observar diversas pa
 
 “package-lock.json” é um arquivo fechado que nunca vamos alterar. Normalmente quando instalamos alguma dependência ou coisas do tipo, todo o histórico é feito nesse arquivo.
 
-“eslintConfig” são configurações de ESLint, uma forma de padronização(boas práticas) de código. Nesta seção temos react-app e react-app/jest, uma configuração de testes e etc. 
-E também uma lista de alguns navegadores que suportam essa aplicação.
+“eslintConfig” são configurações de ESLint, uma forma de padronização(boas práticas) de código. Nesta seção temos react-app e react-app/jest, uma configuração de testes e etc. E também uma lista de alguns navegadores que suportam essa aplicação.
 
-"node_modules" contém literalmente todos os pacotes que foram instalados no projeto. 
-Mas não precisamos nos preocupar tanto, pois ele é gerenciado pelo NPM.
+"node_modules" contém literalmente todos os pacotes que foram instalados no projeto. Mas não precisamos nos preocupar tanto, pois ele é gerenciado pelo NPM.
 
 “.gitignore” é um arquivo do Git, referente a tudo que o Git irá ignorar quando fizermos commits. Por exemplo, os pacotes em "node_modules", os arquivos de debug e etc.
 
-“tsconfig.json” possui algumas configurações de Typescript. 
+“tsconfig.json” possui algumas configurações de TypeScript. 
 
 “README.md” é a documentação da nossa aplicação.
 
@@ -115,32 +111,32 @@ Mas não precisamos nos preocupar tanto, pois ele é gerenciado pelo NPM.
 
 “index.css” possui as configurações de reset.
 
-“index.tsx” importa e renderiza o nosso “App.tsx”
+“index.tsx” importa e renderiza o nosso “App.tsx”.
 
-“react-app-env.d.ts” é um arquivo de descrição utilizado pelo Typescript.
+“react-app-env.d.ts” é um arquivo de descrição utilizado pelo TypeScript.
 
 **Removendo tudo que não será utilizado neste projeto.**
 
 Nesse projeto removeremos os arquivos “App.css”, “App.test.tsx”, “logo.svg”, “reportWebVitals.ts” e “setupTests.ts”. 
 
-Depois de deletarmos esses arquivos, um erro passará a ser exibido no navegador. 
-Isso mostra duas das vantagens do create-react-app: 
+Depois de deletarmos esses arquivos, um erro passará a ser exibido no navegador. Isso mostra duas das vantagens do create-react-app: 
 
-A primeira vantagem é o Hot Reload, que automaticamente recarrega a página sempre que fazemos alterações no código. 
+- A primeira vantagem é o Hot Reload, que automaticamente recarrega a página sempre que fazemos alterações no código. 
 
-A Segunda vantagem é a tela de erro que nos mostra exatamente onde estão os problemas da aplicação.
+- A Segunda vantagem é a tela de erro que nos mostra exatamente onde estão os problemas da aplicação.
 
 E para finalizarmos essa etapa e corrigir o erro apresentado é necessário acessar os arquivos:
 
 “index.tsx” para removermos a importação do arquivo “reportWebVitals” que foi deletado.
 
-“App.tsx” para removermos a importação do “App.css” e do “logo”.  Também removeremos o <header>, mantendo somente uma <div> vazia.
+“App.tsx” para removermos a importação do “App.css” e do “logo”. Também removeremos a tag header, mantendo somente uma tag div vazia.
 
-Agora sim o projeto estará completamente pronto para ser iniciado.
+Agora sim o projeto está completamente pronto para ser iniciado.
 
 **<h1 align="center">Componentização:</h1>**
 
-Em uma aplicação React, é comum encontrar vários tipos de componentes distribuídos na aplicação, dentre os mais usados: componente de classe e componente funcional.
+Em uma aplicação React, é comum encontrar vários tipos de componentes distribuídos na aplicação, dentre os mais usados são:</br> 
+Componente de Classe e Componente de Função.
 
 De modo prático, alguns componentes irão controlar o estado da aplicação e fazer chamadas em uma API externa para troca de dados, enquanto outros irão se preocupar apenas com a renderização desses dados para o usuário.
 
@@ -152,23 +148,21 @@ Por exemplo  meuBotao  é um web-component e MeuBotao é um componente React.
 
 Para criar nossos componentes foi adicionado uma pasta dentro da pasta “SRC”  chamada de “components”, seguido de outras pastas com seus nomes específicos para cada componente da aplicação. E dentro de cada pasta, criamos o arquivo “index.tsx”.
 
-O primeiro componente deste estudo foi criado utilizando um método bem simples, porém tem sido cada vez menos utilizado pelos desenvolvedores, chamada-se class components.
+O primeiro componente deste estudo foi criado utilizando um método bem simples, porém tem sido cada vez menos utilizado pelos desenvolvedores, chamada-se Class Components.
 
 ![image3](https://user-images.githubusercontent.com/99665225/191321640-fe7b7075-aaed-4e99-809c-6a9243f6ffae.png)
 
 Após importar o React, foi criado uma classe Botao que se estende de um componente React, tornando-se assim, um componente React. 
 
-O Class Components tem uma função obrigatória que é a de renderizar com render( ) e retornar um HTML com return( ). Sendo assim, no return foi colocado um <button>.
+O Class Components tem uma função obrigatória que é a de renderizar com render( ) e retornar um HTML com return( ). Sendo assim, no return foi colocado uma tag button.
 
 Por fim, foi exportado essa classe na última linha, utilizando “export default Botao”
 
-OBS: O return trabalha como um HTML, porém podemos escrever javaScript dentro dele.
-Por isso é chamado no React de JSX. É uma extensão de sintaxe para JavaScript. 
+OBS: O return trabalha como um HTML, porém podemos escrever javaScript dentro dele. Por isso é chamado no React de JSX. É uma extensão de sintaxe para JavaScript. 
 
 O React não requer o uso do JSX. Porém, a maioria dos desenvolvedores acha prático como uma ajuda visual quando se está trabalhando dentro do código em JavaScript. 
 
-O JSX permite ao React mostrar mensagens mais úteis de erro e aviso.
-Para saber mais a respeito, confira na documentação abaixo:
+O JSX permite ao React mostrar mensagens mais úteis de erro e aviso. Para saber mais a respeito, confira na documentação abaixo:</br>
 https://pt-br.reactjs.org/docs/introducing-jsx.html
 
 **Function Components.**
@@ -179,9 +173,9 @@ Para os próximos componentes deste estudo, ao invés de utilizar o Class Compon
 
 Sendo assim, foi aplicado uma function, seguido do nome do componente, neste caso Lista, e toda a sintaxe de uma função JavaScript.
 
-Como a função não tem nenhuma tarefa obrigatória, como no ‘class component’, precisamos apenas retornar o "jsx". E para executar o JavaScript dentro de um componente sempre se aplica dentro das { }.
+Como a função não tem nenhuma tarefa obrigatória, como no Class Components, precisamos apenas retornar o JSX. E para executar o JavaScript dentro de um componente sempre se aplica dentro das { }.
 
-Essa é uma vantagem do "jsx", pois nos permite escrever Javascript dentro da estrutura HTML, que nesse caso foi aplicado a tag  <aside>. 
+Essa é uma vantagem do JSX, pois nos permite escrever JavaScript dentro da estrutura HTML, que nesse caso foi aplicado a tag aside. 
 
 Também foi aplicado uma função .map, que faz o loop no array e retorna os valores de cada iteração.
 
@@ -189,13 +183,13 @@ E por fim o recurso de exportar, “export default Lista”.
 
 **<h1 align="center">Estilizando com Sass e CSS Module:</h1>**
 
-Existem 2 maneiras de estilizar no React:
+Existem algumas maneiras de estilizar no React, neste estudo foi aplicado 1x o método mais simples a fim de agregar conhecimento, porém não é recomendado. Já no restante da aplicação foi utilizado o método mais recomendado.
 
-In line Style: É a forma mais simples, mas não é a mais recomendada. 
-Diferente do CSS, no React temos que colocar os atributos da classe dentro das chaves, 
-e não pode usar “Hífens” entre as palavras, usando sempre a sintaxe “camelCase”.
+**In line Style:** 
 
-É possível também, declarar variáveis para estilização, para chamá-las quando for especificar o atributo. Ou até mesmo renderizando a variável dentro da { } Javascript.
+É a forma mais simples, mas não é a mais recomendada. Diferente do CSS, no React temos que colocar os atributos da classe dentro das chaves e não pode usar “Hífens” entre as palavras, usando sempre a sintaxe “camelCase”.
+
+É possível também, declarar variáveis para estilização, para chamá-las quando for especificar o atributo. Ou até mesmo renderizando a variável dentro das { } JavaScript.
 
 Podendo também trabalhar com condições true e false, criando possibilidades de variar os atributos de acordo com a interação do usuário.
 
@@ -212,12 +206,12 @@ O SASS é uma linguagem de extensão do CSS. “Syntactically Awesome Style Shee
 
 Primeiramente, é necessário instalar o Sass, que é o pré-processador CSS. 
 
-No próprio site NPM, busque por Sass e entre em Usage, que mostrará como podemos instalar com o comando: npm install --save-dev sass. 
+No próprio *site NPM*, busque por Sass e entre em Usage, que mostrará como podemos instalar com o comando: npm install --save-dev sass. 
 
-Após a instalação, confirme no arquivo package.json:
-  "devDependencies": {
-    "sass": "^1.54.5"
-  }
+Após a instalação, confirme no arquivo package.json:</br>
+    "devDependencies": {</br>
+      "sass": "^1.54.5"</br>
+    }</br>
 
 O SASS fornece novas funcionalidades que agregam, facilitam e simplificam o processo de desenvolvimento web e acaba sendo uma ótima ferramenta, pois além dos recursos, possui uma sintaxe mais fácil de compreender.
 
@@ -225,11 +219,11 @@ O SASS fornece novas funcionalidades que agregam, facilitam e simplificam o proc
 
 Os css-modules são arquivos css em que os classNames e animações são definidos localmente, isso significa que os estilos ali criados, só serão declarados dentro daquele escopo, e não globalmente, evitando conflitos entre estilos.
 
-Para instalar basta acessar o site npm para analisar os comandos de acordo com as  necessidades do projeto. Neste estudo, como estamos praticando TypeScript então foi necessário um module compatível. 
+Para instalar basta acessar o *site NPM* para analisar os comandos de acordo com as  necessidades do projeto. Neste estudo, como estamos praticando TypeScript então foi necessário um module compatível. 
 
 npm install -D typescript-plugin-css-modules
 
-Outro detalhe é a necessidade de informar a configuração Type Script que um novo plugin foi instalado. Então dentro do arquivo tsconfig.json inclua:
+Outro detalhe é a necessidade de informar a configuração TypeScript que um novo plugin foi instalado. Então dentro do arquivo tsconfig.json inclua:
 
  "plugins": [{ "name": "typescript-plugin-css-modules" }]
 
@@ -239,12 +233,15 @@ Link para saber mais:
 https://www.npmjs.com/package/typescript-plugin-css-modules
 
 A partir daqui é preciso fazer com que os arquivos de estilo tornem-se um módulo:
+
 name.module.scss.
 
 É necessário alterar seu import dos estilos como se fosse um objeto: 
+
 import styles from './name.module.scss' 
 
-E para a utilização dos classNames, ao invés de ser uma string, passará a ser uma variável JavaScript com uso das chaves e será da seguinte forma:
+E para a utilização dos className, ao invés de ser uma string, passará a ser uma variável JavaScript com uso das chaves e será da seguinte forma:
+
 className={styles.container} 
 
 ![image8](https://user-images.githubusercontent.com/99665225/191322398-74ca8fc6-1f9d-458b-a9c0-e08b066b8198.png)
@@ -253,39 +250,38 @@ className={styles.container}
 
 Conceitualmente, componentes são como funções JavaScript. 
 
-Eles aceitam entradas arbitrárias (chamadas “props”) e retornam elementos React que descrevem o que deve aparecer na tela.
+Eles aceitam entradas arbitrárias chamadas “props” e retornam elementos React que descrevem o que deve aparecer na tela.
 
-Props são como argumentos ou propriedades de uma função,  passados para componentes React, por meio de atributos HTML, são os valores que um componente recebe do ‘componente pai’. 
+Props são como argumentos ou propriedades de uma função, passados para componentes React por meio de atributos HTML, são os valores que um componente geralmente recebe do ‘componente pai’. 
 
 Também é uma forma externa, uma forma acima do componente, de mandarmos alguma informação para dentro do componente, para que ele realize algo solicitado. 
 
 ![image9](https://user-images.githubusercontent.com/99665225/191322492-7ae516b4-0596-4501-b818-d1dfbef1493f.png)
 
-Após fazer a função do item com a PROPS temos que integrá-lo dentro do arquivo lista,
-onde será declarado como parâmetro no elemento pai, a tag ul.
+Após fazer a função do item com a PROPS temos que integrá-lo dentro do arquivo Lista, onde será declarado como parâmetro no elemento pai, a tag ul.
 
 ![image10](https://user-images.githubusercontent.com/99665225/191322621-951ac089-8aed-410d-9d52-00d19fa64be7.png)
 
-Agora a Lista só tem a responsabilidade de fazer essa iteração, que é esse map, onde enviará cada tarefa para o componente Item. 
+Agora a Lista só tem a responsabilidade de fazer essa iteração, que é esse .map, onde enviará cada tarefa para o componente Item. 
 
 E o Item em si, só tem responsabilidade de renderizar esse item, somente essa parte do array de tarefas que ele precisa renderizar, conseguindo assim, desacoplar de forma correta.
-
 
 ***Sobre a propriedade Key:**
 
 O React cria um DOM virtual em memória e só atualiza o DOM real quando algo dentro desse Virtual DOM realmente é alterado e atualizado. Para isso acontecer aplica-se a propriedade key para linkar o item no Virtual DOM no DOM real. 
 
-Sendo assim, não vemos a props sendo passada para o componente Item, pois essa prop é algo interno no React.
+Sendo assim, não vemos a props sendo passada para o componente Item, pois essa props é algo interno no React.
 
 A Key deve ser atribuída aos elementos dentro do array para dar uma identidade estável aos elementos. Ajudando o React a identificar quais itens sofreram alterações.
 
-Saiba mais a respeito na documentação do React: https://pt-br.reactjs.org/docs/lists-and-keys.html#keys
+Saiba mais a respeito na documentação do React:</br> 
+https://pt-br.reactjs.org/docs/lists-and-keys.html#keys
 
 **<h1 align="center">STATE:</h1>**
 
 O state de um componente React é uma propriedade do componente onde colocamos dados que, quando mudados, devem causar uma nova renderização. Se deve causar mudança fica nos state, se não deve, não fica.
 
-**State no function component:**
+## **State no function component:**
 
 Geralmente declaramos uma variável “const nome = useState( )” que é a função disponibilizada pelo React para trabalharmos dentro de um function components. 
 O useState precisa do estado e de uma função para mudar esse estado, não podemos apenas mudar na mão. 
@@ -298,7 +294,7 @@ Com essa função, o React consegue entender que algo mudou e se atualiza.
 
 É muito comum chamarem essa função de Hook, então geralmente tudo que tiver um “use”  podemos associar a um Hook(gancho).
 
-Declara-se a variável const e abre colchetes [ ]. O index zero deste array é o tarefas(estado atual) e o index 1 é a função para alterar este estado.
+Declara-se a variável const e abre colchetes [ ]. O index zero deste array é o tarefas(estado atual) e o index 1 é SetTarefas(função para alterar este estado).
 
 ![image11](https://user-images.githubusercontent.com/99665225/191322807-5ae6a3c8-cd52-4caf-a8e1-cba222513c9b.png)
 
@@ -330,17 +326,17 @@ Spread syntax (Sintaxe de Espalhamento) permite que um objeto iterável, como um
 
 É muito importante para fazer atualizações em estados, pois quando queremos atualizar estados, é comum termos parte do estado que não será alterado
 
-**State no class component:**
+## **State no class component:**
 
-Dentro do arquivo do Formulário, ao contrário do function components onde utilizamos Hooks, no class components já temos um state junto. Para criarmos um state aqui dentro, devemos fazê-lo antes do “render( )”
+Dentro do arquivo do Formulário, ao contrário do function components onde foi utilizado Hooks, no class components já temos um state junto. Para criar um state dentro, devemos fazê-lo antes do “render( )”
 
 Para acessar as informações inseridas no formulário, diferente do JavaScript, em que geralmente pegamos via DOM, aqui no React armazenamos esse valor e controlamos ele em algum lugar. 
 
 Podemos pegá-lo quando quisermos e, por utilizar o state, sempre que mudarmos esse valor, o componente vai atualizar. 
 
-Para fazer isso, é necessário deixar o componente com uma terminologia que chamamos de "controlado". 
+Para fazer isso, é necessário deixar o componente com uma terminologia chamada de "controlado". 
 
-Vamos colocar um state React dentro dele e sempre que essa informação mudar, ela vai para dentro de um valor no state.
+Ao colocar um state React dentro dele, sempre que essa informação mudar, ela vai para dentro de um valor no state.
 
 ![image13](https://user-images.githubusercontent.com/99665225/191323110-a98216b9-0efb-4620-861c-d7919aaf9c01.png)
 
@@ -350,23 +346,21 @@ Pois diferente de um function component, o class component não consegue ler um 
 
 ![image14](https://user-images.githubusercontent.com/99665225/191323170-6f9bdc28-f6b0-46d7-8aa6-8063156007a3.png)
 
-Ainda dentro do Formulário é necessário aplicar “onChange” dentro do input, ele pega o evento com a arrow function e especifica melhor com this.setState( ) e altera a variável.
+Ainda dentro do Formulário é necessário aplicar “onChange” dentro do input, ele pega o evento com a arrow function e especifica melhor com this.setState( ), alterando a variável.
 
 **Sobre a diferença entre Props e State:**
 
 É importante ter um bom entendimento sobre a diferença entre esses dois conceitos, mas em resumo:
 
-Props são variáveis passadas entre componentes ou recebida pelo componente pai. Devemos sempre lembrar que as props são valores estáticos, não podemos alterá-las.
+- Props são variáveis passadas entre componentes ou recebida pelo componente pai. Devemos sempre lembrar que as props são valores estáticos, não podemos alterá-las.
 
-State são variáveis que utilizamos para valores dinâmicos e de interação com o usuário. Utilizamos quando precisamos alterar o valor de algum estado dentro dela, assim o React reconhece essa mudança e se atualiza com uma nova renderização.
+- State são variáveis que utilizamos para valores dinâmicos e de interação com o usuário. Utilizamos quando precisamos alterar o valor de algum estado dentro dela, assim o React reconhece essa mudança e se atualiza com uma nova renderização.
 
-**<h1 align="center">Controlar campos de um Formulário com estados:</h1>**
+**<h1 align="center">Controlar um Formulário com estados:</h1>**
 
 Agora que os fundamentos foram aplicados, e a estilização também, é necessário analisar e compreender o fluxo da aplicação que está sendo trabalhada. 
 
 Neste caso começa com o Formulário recebendo uma Tarefa, onde ao clicar no botão adicionar, uma nova Tarefa é inserida na Lista.
-
-Controlar campos de um Formulário com estados.
 
 É necessário criar uma comunicação entre os componentes que são do mesmo nível, ou seja, que são filhos do mesmo pai.
 
@@ -386,13 +380,13 @@ Para definirmos qual tarefa está sendo selecionada pelo usuário, precisamos de
 
 Para instalar a extensão, basta digitar no terminal npm i uuid. 
 
-Após isso é só importa-lo e já estará pronto para ser utilizado.
+Após isso é só importa-lo e já estará pronto para ser utilizado, como podemos ver acima.
 
 ![image17](https://user-images.githubusercontent.com/99665225/191323474-2508f908-b4fa-465f-afcd-901f60dceef8.png)
 
 ![image18](https://user-images.githubusercontent.com/99665225/191323516-41486cb1-599c-4850-8c2a-0538a52c9496.png)
 
-OBS: Se observarmos o código nota-se que foi utilizado junção de props + state para podermos passar valores para outros componentes e para podermos avisar que um estado deve ser mudado.
+**OBS:** Se observarmos o código nota-se que foi utilizado junção de props + state para conseguir passar valores para outros componentes e para avisar que um estado deve ser mudado.
 
 **<h1 align="center">Cronômetro e useEffect:</h1>**
 
@@ -400,7 +394,7 @@ Para iniciar essa etapa foi aplicado uma lógica para converter as horas e os mi
 
 E para melhorar a organização dos arquivos, foi criado por convenção 2 pastas na aplicação, para os códigos em comum e utilitários. As pastas são common e utils.
 
-Criando assim um arquivo “time.ts” para aplicar a função para converter o tempo do cronômetro.
+Criando assim dentro da pasta utils, um arquivo “time.ts” para aplicar a função para converter o tempo do cronômetro.
 
 ![image19](https://user-images.githubusercontent.com/99665225/191323618-58c574fe-e9a2-4f10-bf99-5ab145f22e24.png)
 
