@@ -1,4 +1,4 @@
-App Temporizador de Estudos.
+### **App Temporizador de Estudos.**
 
 Neste projeto pude me aprofundar mais nas tecnologias React e TypeScript, aplicando um estudo teórico e prático com objetivo de consolidar e expandir conhecimento.
 
@@ -19,7 +19,7 @@ Neste projeto pude me aprofundar mais nas tecnologias React e TypeScript, aplica
 
 React foi originalmente apresentado pelo Facebook. Ele é usado por grandes empresas e marcas mundo afora. Atua como uma biblioteca para o JavaScript. Mas também pode ser categorizado como um framework.
 
-**O React tem duas premissas principais:**
+### **O React tem duas premissas principais:**
 
 A primeira é a *componentização*. É uma forma de simplificar estruturas da sua aplicação em pequenas partes que podem ser reutilizadas. Com ela podemos ter, por exemplo, diversos ícones, reaproveitando esses componentes e alterando somente as partes diferentes entre elas. Sendo assim, esses ícones podem ter os mesmos aspectos, as mesmas cores e os mesmos comportamentos, alterando somente aquilo que é necessário.
 
@@ -29,7 +29,7 @@ O estado do componente não é uma simples variável, ele é gerenciado pelo Rea
 
 Apesar do estado ser uma variável em nossa classe, não podemos alterar o estado da mesma forma que alteramos uma variável comum, isso porque o estado é imutável, ou seja, ele nunca deve ser alterado e sempre deve ser sobreposto.
 
-**Princípios SOLID em aplicações feitas com React:**
+### **Princípios SOLID em aplicações feitas com React:**
 
 [S]ingle Responsibility Principle (Princípio da Responsabilidade Única):</br>
 Criar componentes e funções com uma única utilidade.
@@ -50,7 +50,7 @@ Saiba mais sobre:</br>https://ntconsult.com.br/insights/aplicando-solid-no-react
 
 **<h1 align="center">Iniciando a Aplicação:</h1>**
 
-**1ª ETAPA:**
+### **1ª ETAPA:** Instalando NodeJS e NPM.
 
 Instalar o Node.JS e buscar na internet um pacote de gerenciamento para ele. Neste estudo foi utilizado o gerenciador NPM.</br>
 https://www.npmjs.com/
@@ -73,9 +73,7 @@ Ele permite instalar, desinstalar e atualizar dependências em uma aplicação p
 
 O NPM conta com um repositório repleto de ferramentas de código aberto que podem ser utilizadas gratuitamente. Por esses motivos, é muito importante conhecer essa tecnologia.
 
-**2ª ETAPA:**
-
-Digitando os comandos no terminal para iniciar a aplicação.
+### **2ª ETAPA:** Digitando os comandos no terminal para iniciar a aplicação.
 
 ![image1](https://user-images.githubusercontent.com/99665225/191321121-cf44b53f-0bf1-4a28-abd2-b406a1f7e5c8.png)
 
@@ -115,7 +113,7 @@ Após a instalação, dentro do leitor de códigos, podemos observar diversas pa
 
 “react-app-env.d.ts” é um arquivo de descrição utilizado pelo TypeScript.
 
-**Removendo tudo que não será utilizado neste projeto.**
+### **3ª ETAPA:** Removendo tudo que não será utilizado neste projeto.
 
 Nesse projeto removeremos os arquivos “App.css”, “App.test.tsx”, “logo.svg”, “reportWebVitals.ts” e “setupTests.ts”. 
 
@@ -144,7 +142,7 @@ Para o React diferenciar seus componentes de um web-component, ele pede para que
 
 Por exemplo  meuBotao  é um web-component e MeuBotao é um componente React.
 
-**Class Components.**
+## **Class Components:**
 
 Para criar nossos componentes foi adicionado uma pasta dentro da pasta “SRC”  chamada de “components”, seguido de outras pastas com seus nomes específicos para cada componente da aplicação. E dentro de cada pasta, criamos o arquivo “index.tsx”.
 
@@ -165,7 +163,7 @@ O React não requer o uso do JSX. Porém, a maioria dos desenvolvedores acha pr�
 O JSX permite ao React mostrar mensagens mais úteis de erro e aviso. Para saber mais a respeito, confira na documentação abaixo:</br>
 https://pt-br.reactjs.org/docs/introducing-jsx.html
 
-**Function Components.**
+## **Function Components:**
 
 Para os próximos componentes deste estudo, ao invés de utilizar o Class Components, que era a forma mais antiga, será utilizado Function Component, que é o mais recomendado.
 
@@ -185,7 +183,7 @@ E por fim o recurso de exportar, “export default Lista”.
 
 Existem algumas maneiras de estilizar no React, neste estudo foi aplicado 1x o método mais simples a fim de agregar conhecimento, porém não é recomendado. Já no restante da aplicação foi utilizado o método mais recomendado.
 
-**In line Style:** 
+## **In line Style:** 
 
 É a forma mais simples, mas não é a mais recomendada. Diferente do CSS, no React temos que colocar os atributos da classe dentro das chaves e não pode usar “Hífens” entre as palavras, usando sempre a sintaxe “camelCase”.
 
@@ -199,7 +197,7 @@ Segue abaixo alguns métodos aplicados para estudo:
 
 ![image6](https://user-images.githubusercontent.com/99665225/191322079-92596973-7cc0-4884-a3a1-f2832bac3c95.png)
 
-**Estilizando com Sass no React:**
+## **Estilizando com Sass no React:**
 
 O SASS é uma linguagem de extensão do CSS. “Syntactically Awesome Style Sheets” 
 (folhas de estilo com uma sintaxe incrível). A sua ideia é adicionar recursos especiais como variáveis, mixins, funções, operações e outras opções.
@@ -215,7 +213,7 @@ Após a instalação, confirme no arquivo package.json:</br>
 
 O SASS fornece novas funcionalidades que agregam, facilitam e simplificam o processo de desenvolvimento web e acaba sendo uma ótima ferramenta, pois além dos recursos, possui uma sintaxe mais fácil de compreender.
 
-**Estilizando com CSS Module:**
+## **Estilizando com CSS Module:**
 
 Os css-modules são arquivos css em que os classNames e animações são definidos localmente, isso significa que os estilos ali criados, só serão declarados dentro daquele escopo, e não globalmente, evitando conflitos entre estilos.
 
@@ -348,7 +346,7 @@ Pois diferente de um function component, o class component não consegue ler um 
 
 Ainda dentro do Formulário é necessário aplicar “onChange” dentro do input, ele pega o evento com a arrow function e especifica melhor com this.setState( ), alterando a variável.
 
-**Sobre a diferença entre Props e State:**
+***Sobre a diferença entre Props e State:**
 
 É importante ter um bom entendimento sobre a diferença entre esses dois conceitos, mas em resumo:
 
@@ -400,7 +398,7 @@ Criando assim dentro da pasta utils, um arquivo “time.ts” para aplicar a fun
 
 ![image20](https://user-images.githubusercontent.com/99665225/191323635-c664ef98-401b-4918-b63e-f27a477c1cad.png)
 
-**useEffect**
+## **useEffect**
 
 Nesta etapa foi encontrado um desafio para fazer com que sempre que selecionarmos uma nova tarefa ele atualize o cronômetro e mostre o tempo correto determinado pelo usuário.
 
@@ -431,7 +429,7 @@ componentDidMount (acabou de ser montado)</br>
 componentWillUpdate (componente acabou de atualizar)</br>
 componentWillUnmount (componente vai ser desmontado)
 
-**Aplicando contagem regressiva no Cronômetro:**
+## **Aplicando contagem regressiva no Cronômetro:**
 
 Para aplicar a contagem regressiva no cronômetro, foi necessário criar um Loop. 
 
@@ -441,11 +439,11 @@ Enquanto o valor inserido no tempo da tarefa for maior do que  zero, ele diminui
 
 **<h1 align="center">Finalizando Tarefa:</h1>**
 
-Por fim, foi aplicado uma função para finalizar as tarefas que foram concluídas com sucesso.
+Por fim, foi aplicado uma função para finalizar as tarefas que foram concluídas com sucesso, marcando-as com um "check".
 
 ![image22](https://user-images.githubusercontent.com/99665225/191323974-f1514ed9-1185-4127-a5b5-1f5ded4e584f.png)
 
-Este estudo foi aplicado a fim de consolidar os conhecimentos obtidos na instituição de ensino Alura, com foco na tecnologia React e TypeScript.
+Este estudo foi aplicado a fim de consolidar os conhecimentos obtidos com a instituição de ensino Alura, com foco na tecnologia React e TypeScript.
 
 
 
